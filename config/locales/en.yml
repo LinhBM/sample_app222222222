@@ -19,5 +19,59 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
-en:
-  hello: "Hello world"
+en:      
+  layouts:
+    application:      
+      english: "English"
+      vietnam: "Vietnam"
+      title: " | Ruby on Rails Tutorial Sample App"
+
+  #module
+  static_pages: 
+    #Home
+    home:
+      title: "Home"
+
+      description: "Sampe App"
+      
+      railstutorial: "This is the home page for the %{tut} sample application."
+      railstutorialtut: "Ruby on Rails Tutorial"
+
+    #Help
+    help:
+      title: "Help"
+
+      description: "Help"
+
+      railstutorialhelp: "Get help %{tut} on the Ruby on Rails Tutorial at the" 
+      railstutorialhelptut: "Rails Tutorial help section"
+
+      railstutorialbook: "To get help on this sample app, see the %{tut}"
+      railstutorialbooktut: "Ruby on Rails Tutorial book"
+
+    #About
+    about:
+      title: "About"
+
+      description: "About"
+
+      railstutorial: "The %{tut}"
+      railstutorialtut: "Ruby on Rails Tutorial"          
+      
+      railstutorialbook: "is a %{tut}."
+      railstutorialbooktut: "book"
+
+      screencastrailstutorial: "And %{tut}"
+      screencastrailstutorialtut: "screen"
+
+      rubyonrails: "to teach web development with %{tut}. This is the sample application for the tutorial."
+      rubyonrailstut: "Ruby on Rails Tutorial"
+    
+    #Contact.html.erb
+    contact:
+      title: "Contact"
+
+      description: "Contact"
+      
+      railstutorialcontact: "Contact the Ruby on Rails Tutorial about the sample app at the %{tut}."
+      railstutorialcontacttut: "contact page"
