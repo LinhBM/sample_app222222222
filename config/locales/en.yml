@@ -44,6 +44,7 @@ en:
       description: "Help"
 
       railstutorialhelp: "Get help %{tut} on the Ruby on Rails Tutorial at the" 
+
       railstutorialhelptut: "Rails Tutorial help section"
 
       railstutorialbook: "To get help on this sample app, see the %{tut}"

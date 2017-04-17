@@ -71,7 +71,7 @@ vn:
     contact:
       title: "Lien he"
 
-      description: "Thong tin hotline"
+      description: "Thong tin hotline"      
 
       railstutorialcontact: "Den voi ruby on rails de hieu hon ve %{tut}."
       railstutorialcontacttut: "cach lam viec"
