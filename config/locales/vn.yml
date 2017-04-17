@@ -46,6 +46,7 @@ vn:
 
       railstutorialhelp: "Su tro giup %{tut} huong dan tren ruby" 
       railstutorialhelptut: "cua rails trong nay"
+
       railstutorialhelplink: "http://www.railstutorial.org/help"
 
       railstutorialbook: "De hieu ve su tro giup cua ung dung nay, xem %{tut}"
