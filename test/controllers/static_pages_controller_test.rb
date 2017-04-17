@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 require "test_helper"
-=======
-require 'test_helper'
->>>>>>> b94cabd... Rails flavored ruby
 
 class StaticPagesControllerTest < ActionDispatch::IntegrationTest
 
@@ -32,9 +28,5 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
   	get static_pages_contact_url
   	assert_response :success
   	assert_select "title", "Contact | #{@base_title}"
-<<<<<<< HEAD
   end
-=======
-  end  
->>>>>>> b94cabd... Rails flavored ruby
 end
