@@ -1,0 +1,16 @@
+<% provide :title, t(".title") %>
+<h1><%= t".description" %></h1>
+<p>  
+  <%= raw t".railstutorialorg", tut: link_to(t(".railstutorialorgtut"),
+    t(".railstutorialorglink")) %>
+  
+  <%= raw t".railstutorialbook", tut: link_to(t(".railstutorialbooktut"),
+    t(".railstutorialbooklink")) %>
+
+  <%= raw t".screencastsrailstutorialorg", tut:
+    link_to(t(".screencastsrailstutorialorgtut"),
+    t(".screencastsrailstutorialorglink")) %>
+  
+  <%= raw t".rubyonrailsorg", tut: link_to(t(".rubyonrailsorgtut"),
+    t(".rubyonrailsorglink")) %>
+</p>
