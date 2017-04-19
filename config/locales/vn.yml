@@ -19,67 +19,47 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guide.rubyonrails.org/i18n.html.
 
-vn:      
-  layouts:
-    application:      
-      english: "Tieng Anh"
-      vietnam: "Tieng Viet"
-      title: " | Huong dan su dung ngon ngu ruby"
+vn:
+  title: "huong dan su dung"
+  english: "tieng anh"
+  vietnam: "tieng viet"
 
   #module
-  static_pages: 
-    #Home
+  static_pages:
     home:
-      title: "Trang chu"
-
-      description: "Ung dung san pham"
-      
-      railstutorialorg: "Day la huong dan su dung %{tut} cho mot vai vi du."
-      railstutorialorgtut: "ruby o tren rails"
-      railstutorialorglink: "http://www.railstutorial.org/"
-
-    #Help
+      title: "trang chu"
+      description: "xem ung dung"
+      homecontent: "day la trang chu %{org} voi mot vai vi du."
+      org: "huong dan su dung ruby on rails"
+      orglink: "http://www.railstutorial.org/"
+    
     help:
-      title: "Tro giup"
+      title: "tro giup"
+      description: "giup hieu hon ve san pham"
+      helpcontent: "voi su tro giup %{help} tren ngon ngu ruby de hieu hon ve ngon ngu ruby,
+       hay xem %{book}"
+      help: "cua rails"
+      helplink: "http://www.railstutorial.org/help"
+      book: "huong dan su dung"
+      booklink: "http://www.railstutorial.org/book"
 
-      description: "Xem chi tiet ung dung"
-
-      railstutorialhelp: "Su tro giup %{tut} huong dan tren ruby" 
-      railstutorialhelptut: "cua rails trong nay"
-      railstutorialhelplink: "http://www.railstutorial.org/help"
-
-      railstutorialbook: "De hieu ve su tro giup cua ung dung nay, xem %{tut}"
-      railstutorialbooktut: "ngon ngu ruby qua sach"
-      rblrailstutorialbooklink: "http://www.railstutorial.org/book"
-
-    #About
     about:
       title: "Gioi thieu"
-
-      description: "Mo ta san pham"
-
-      railstutorialorg: "%{tut}"
-      railstutorialorgtut: "Ngon ngu ruby"     
-      railstutorialorglink: "http://www.railstutorial.org"     
-      
-      railstutorialbook: "la 1 %{tut}."
-      railstutorialbooktut: "quyen sach"
-      railstutorialbooklink: "http://www.railstutorial.org/book"
-
-      screencastsrailstutorialorg: "Va %{tut}"
-      screencastsrailstutorialorgtut: "anh"
-      screencastsrailstutorialorglink: "http://screencasts.railstutorial.org/"
-
-      rubyonrailsorg: "De day thiet ke web voi %{tut}. Day la huong dan chay ung dung don gian."
-      rubyonrailsorgtut: "Ngon ngu ruby"
-      rubyonrailsorglink: "http://rubyonrails.org"
-    
-    #Contact.html.erb
+      description: "Thong tin chi tiet"
+      aboutcontent: "%{rails} la mot %{railsbook}. va %{screencastsrails}
+       de day thiet ke web %{rubyonrails}. Day la mot vai vi du."
+      rails: "Ngon ngu rails"
+      railslink: "http://www.railstutorial.org"
+      railsbook: "chu de ve rails"
+      railsbooklink: "http://www.railstutorial.org/book"      
+      screencastsrails: "phan chieu tren rails"
+      screencastsrailslink: "http://screencasts.railstutorial.org/"
+      rubyonrails: "voi ngon ngu ruby on rails"
+      rubyonrailslink: "http://rubyonrails.org"
+        
     contact:
       title: "Lien he"
-
-      description: "Thong tin hotline"
-
-      railsrutorialcontact: "Den voi ruby on rails de hieu hon ve %{tut}."
-      railsrutorialcontacttut: "cach lam viec"
-      railsrutorialcontactlink: "http://www.railstutorial.org/contact"
+      description: "Lien he chi tiet"
+      contactcontent: "Lien he de duoc huong dan su dung ngon ngu ruby them %{tut}."
+      contact: "trang lien he"
+      contactlink: "http://www.railstutorial.org/contact"

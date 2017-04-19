@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
   scope "(:locale)", locale: /en|vn/ do
 
-  root "static_pages#home"   
+  root "static_pages#contact"   
 
   get "static_pages/help"
 

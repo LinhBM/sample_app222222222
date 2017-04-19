@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= yield :title %><%= t".title" %></title>
- 
+  <head>    
+    <title><%= full_title(yield(:title)) %><%= t".title" %></title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track": "reload" %>
@@ -11,9 +10,9 @@
 
   <body>
 
-    <%= link_to t(".english"), locale: :en %>
+    <%= link_to t("english"), locale: :en %>
 
-    <%= link_to t(".vietnam"), locale: :vn %>
+    <%= link_to t("vietnam"), locale: :vn %>
     
     <%= yield %>
   </body>

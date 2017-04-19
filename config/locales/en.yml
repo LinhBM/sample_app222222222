@@ -19,67 +19,47 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guide.rubyonrails.org/i18n.html.
 
-en:      
-  layouts:
-    application:      
-      english: "English"
-      vietnam: "Vietnam"
-      title: " | Ruby on Rails Tutorial Sample App"
+en:
+  title: "Ruby on Rails Tutorial Sample App"
+  english: "English"
+  vietnam: "Vietnam"
 
   #module
-  static_pages: 
-    #Home
+  static_pages:
     home:
       title: "Home"
-
       description: "Sampe App"
-      
-      railstutorialorg: "This is the home page for the %{tut} sample application."
-      railstutorialorgtut: "Ruby on Rails Tutorial"
-      railstutorialorglink: "http://www.railstutorial.org/"
-
-    #Help
+      homecontent: "This is the home page for the %{org} sample application."
+      org: "Ruby on Rails Tutorial"
+      orglink: "http://www.railstutorial.org/"
+    
     help:
       title: "Help"
-
       description: "Help"
+      helpcontent: "Get help %{help} on the Ruby on Rails Tutorial at the
+       To get help on this sample app, see the %{book}"
+      help: "Rails Tutorial help section"
+      helplink: "http://www.railstutorial.org/help"
+      book: "Ruby on Rails Tutorial book"
+      booklink: "http://www.railstutorial.org/book"
 
-      railstutorialhelp: "Get help %{tut} on the Ruby on Rails Tutorial at the"
-      railstutorialhelptut: "Rails Tutorial help section"
-      railstutorialhelplink: "http://www.railstutorial.org/help"
-
-      railstutorialbook: "To get help on this sample app, see the %{tut}"
-      railstutorialbooktut: "Ruby on Rails Tutorial book"
-      railstutorialbooklink: "http://www.railstutorial.org/book"
-
-    #About
     about:
       title: "About"
-
       description: "About"
-
-      railstutorialorg: "The %{tut}"
-      railstutorialorgtut: "Ruby on Rails Tutorial"
-      railstutorialorglink: "http://www.railstutorial.org"
-      
-      railstutorialbook: "is a %{tut}."
-      railstutorialbooktut: "book"
-      railstutorialbooklink: "http://www.railstutorial.org/book"
-
-      screencastsrailstutorialorg: "And %{tut}"
-      screencastsrailstutorialorgtut: "screen"
-      screencastsrailstutorialorglink: "http://screencasts.railstutorial.org/"
-
-      rubyonrailsorg: "to teach web development with %{tut}. This is the sample application for the tutorial."
-      rubyonrailsorgtut: "Ruby on Rails Tutorial"
-      rubyonrailsorglink: "http://rubyonrails.org"
-    
-    #Contact.html.erb
+      aboutcontent: "The %{rails} is a %{railsbook}. And %{screencastsrails}
+       to teach web development with %{rubyonrails}. This is the sample application for the tutorial."
+      rails: "Ruby on Rails Tutorial"
+      railslink: "http://www.railstutorial.org"
+      railsbook: "book"
+      railsbooklink: "http://www.railstutorial.org/book"
+      screencastsrails: "screen"
+      screencastsrailslink: "http://screencasts.railstutorial.org/"
+      rubyonrails: "Ruby on Rails Tutorial"
+      rubyonrailslink: "http://rubyonrails.org"
+        
     contact:
       title: "Contact"
-
       description: "Contact"
-      
-      railsrutorialcontact: "Contact the Ruby on Rails Tutorial about the sample app at the %{tut}."
-      railsrutorialcontacttut: "contact page"      
-      railsrutorialcontactlink: "http://www.railstutorial.org/contact"
+      contactcontent: "Contact the Ruby on Rails Tutorial about the sample app at the %{tut}."
+      contact: "contact page"
+      contactlink: "http://www.railstutorial.org/contact"
