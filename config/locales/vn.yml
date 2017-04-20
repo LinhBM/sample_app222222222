@@ -26,6 +26,11 @@ vn:
       vietnam: "Tieng Viet"
       title: " | Huong dan su dung ngon ngu ruby"
 
+    header:
+      home: "Trang chu"
+      help: "Tro giup"
+      login: "Dang nhap"
+
   #module
   static_pages: 
     #Home

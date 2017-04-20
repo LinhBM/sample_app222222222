@@ -7,14 +7,16 @@
 
     <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track": "reload" %>
     <%= javascript_include_tag "application", "data-turbolinks-track": "reload" %>
+    <%= render 'layouts/shim' %>
   </head>
 
   <body>
+    <div class="container">
+      <%= yield %>
 
-    <%= link_to t(".english"), locale: :en %>
+      <%= render 'layouts/header' %>
 
-    <%= link_to t(".vietnam"), locale: :vn %>
-    
-    <%= yield %>
+      <%= render 'layouts/footer' %>
+    </div>>            
   </body>
 </html>

@@ -26,6 +26,11 @@ en:
       vietnam: "Vietnam"
       title: " | Ruby on Rails Tutorial Sample App"
 
+    header:
+      home: "Home"
+      help: "Help"
+      login: "Log in"
+
   #module
   static_pages: 
     #Home
